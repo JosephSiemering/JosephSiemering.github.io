@@ -167,6 +167,7 @@ h2 {
     margin-top: 12px;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    align-items: stretch;
 }
 
 .btn {
@@ -178,7 +179,9 @@ h2 {
     font-weight: 600;
     text-decoration: none;
     border: 1.5px solid transparent;
-    width: 100%;
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
 }
 
 .btn--primary {
@@ -212,15 +215,5 @@ main.project-grid {
 
     .project-card {
         width: 100%;
-    }
-
-    .actions {
-        flex-direction: column;
-    }
-
-    .btn {
-        width: 100%;
-        min-width: 0;
-        flex: 1 1 auto;
     }
 }
