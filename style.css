@@ -118,7 +118,7 @@ h2 {
 }
 
 .project-card {
-    width: 420px;
+    width: 100%;
     box-sizing: border-box;
     background: white;
     border-radius: 12px;
@@ -212,5 +212,15 @@ main.project-grid {
 
     .project-card {
         width: 100%;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        min-width: 0;
+        flex: 1 1 auto;
     }
 }
