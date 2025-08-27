@@ -170,6 +170,9 @@ h2 {
     align-items: stretch;
 }
 
+/*---------------*/
+/*    BUTTONS    */
+/*---------------*/
 .btn {
     display: inline-flex;
     align-items: center;
@@ -202,6 +205,18 @@ h2 {
 .btn--ghost:hover {
     background: #f8fafc;
 }
+
+.btn--disabled {
+    background: #d1d5db;
+    border-color: #d1d5db;
+    color: transparent;
+    pointer-events: none;
+    cursor: default;
+}
+
+/*---------------*/
+/*    BUTTONS    */
+/*---------------*/
 
 main.project-grid {
     max-width: 1900px;
